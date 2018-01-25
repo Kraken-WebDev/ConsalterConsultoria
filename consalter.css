@@ -1,0 +1,76 @@
+#myHome{
+	background-image: url(img/bn1.png);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#myConsalter{
+	background-color: black;
+	margin: 30% 17% 25% 17%;
+	font-family: bodoni LFL;
+}
+
+#myServices{
+	background-image: url(img/back.jpeg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#myServicesBorder{
+	margin: 3% 3% 0% 3%;
+	border-width: 1vw;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-color: #c1a748;
+	padding: 10vw 10vw 30vw 10vw;
+}
+#onlineServices{
+	font-family: Lato;
+	width: 80%;
+	margin: auto;
+	border-width: 1vw;
+	border-top-style: solid;
+	border-color: #c1a748;
+}
+
+#myContactAll{
+	background-image: url(img/bn2.png);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#myContactContent{
+	width: 55%;
+	margin: auto;
+	margin-top: 10vw;
+	margin-bottom: 10vw;
+	border-width: 1vw;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: #c1a748;
+}
+#myContactIcons{
+	margin: auto;
+	width: 60%;
+}
+a .fa{
+	color: white;
+}
+a:hover .fa{
+	color: #c1a748;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+#myContactIcons p{
+	color: white;
+	font-size: 2vw;
+}
