@@ -16,8 +16,7 @@
 	height: 100%;
 	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat;
-}
+	background-repeat: no-repeat;}
 #myServicesBorder{
 	margin: 3% 3% 0% 3%;
 	border-width: 1vw;
@@ -25,16 +24,15 @@
 	border-left-style: solid;
 	border-right-style: solid;
 	border-bottom-style: none;
-	border-color: #c1a748;
-	padding: 10vw 10vw 30vw 10vw;
-}
+	border-color: #ffbd4a;
+	padding: 10vw 10vw 30vw 10vw;}
 #onlineServices{
 	font-family: Lato;
 	width: 80%;
 	margin: auto;
 	border-width: 1vw;
 	border-top-style: solid;
-	border-color: #c1a748;
+	border-color: #ffbd4a;
 }
 
 #myContactAll{
@@ -54,7 +52,7 @@
 	border-left-style: solid;
 	border-right-style: solid;
 	border-bottom-style: solid;
-	border-color: #c1a748;
+	border-color: #ffbd4a;
 }
 #myContactIcons{
 	margin: auto;
@@ -64,7 +62,7 @@ a .fa{
 	color: white;
 }
 a:hover .fa{
-	color: #c1a748;
+	color: #ffbd4a;
 }
 a:hover{
 	color: black;
@@ -73,4 +71,27 @@ a:hover{
 #myContactIcons p{
 	color: white;
 	font-size: 2vw;
+}
+
+#nav-logo{
+	width: 100%;
+	max-width: 50px;
+}
+div .container{
+	width: 80%;
+}
+#navStyle{
+	background-color: black;
+	color: #ffbd4a;
+}
+#navStyle a{
+	color: #ffbd4a;
+}
+#navStyle a:focus, #navStyle a:hover{
+					background-color:#ffbd4a;
+					color: black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #ffbd4a;
+	color: black;
 }

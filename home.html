@@ -13,23 +13,36 @@
 
   	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   	
-
-  	<script type="text/javascript">
-			$("a.toScroll").on('click',function(e) {
-			    var url = e.target.href;
-			    var hash = url.substring(url.indexOf("#")+1);
-			    $('html, body').animate({
-			        scrollTop: $('#'+hash).offset().top - 50
-			    }, 500);
-			    return false;
-			});
-	</script>
 </head>
 
 <body>
 	<div class="pageWrap">
 		
-		
+		<!-- navbar -->
+		<nav class="header navbar navbar-default navbar-fixed-top" id="navStyle">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" id="navToggle" data-toggle="collapse" data-target="#myNavBar" aria-expanded="false" aria-controls="navbar">
+			          <span class="sr-only">Toggle navigation</span>
+			          <i class="fa fa-bars"></i>
+			        </button>
+			        <div id="nav-logo">
+			        	<a href="file:///C:/Users/luiz-/Desktop/Férias%202017-2018/Consalter%20Consultoria/home.html"><img src="img/Logo2.jpeg" class="img-responsive"><p class="hidden-xs"></a>					
+					</div>
+				</div>
+				<div id="myNavBar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#myHome" class="btn toScroll">Home</a></li>
+						<li><a href="#onlineServices" class="btn toScroll">Serviços Providos</a></li>
+						<li><a href="#myContactAll" class="btn toScroll">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+
+
 		<!-- home -->
 		<div class="container-fluid" id="myHome">
 			<div class="row text-center" id="myConsalter">
@@ -39,15 +52,16 @@
 				</div>
 			</div>
 		</div>
+		
 		<!-- visão -->
-
 		<div class="container-fluid row text-center" id="onlineServices">
 			<p style="color: black; font-size: 3vw; padding-top: 8vw;"><b>G U I A &nbsp; &nbsp; D E &nbsp;	&nbsp; S E R V I Ç O S</b></p>
 			<div class="text-center">
-			<i class="fa fa-minus" style="font-size: 8vw; color: black;"></i>
-		</div>
-			<p style="color: black; font-size: 2.6vw; padding-bottom: 5vw;">Consalter Consultoria, visa ser reconhecida como empresa referência em
-produção de conteúdo, inovando e criando novas possibilidades</p>
+				<i class="fa fa-minus" style="font-size: 8vw; color: black;"></i>
+			</div>
+			<p style="color: black; font-size: 2.6vw; padding-bottom: 5vw;">Consalter Consultoria, visa ser reconhecida como 	 empresa referência em
+				produção de conteúdo, inovando e criando novas possibilidades
+			</p>
 		</div>
 		
 		<!-- serviços prestados -->
@@ -55,7 +69,6 @@ produção de conteúdo, inovando e criando novas possibilidades</p>
 			<div class="row" id="myServicesBorder" class="text-center">
 			</div>
 		</div>
-
 
 		<!-- online services -->
 		<div class="container-fluid row text-center" id="onlineServices">
@@ -70,7 +83,7 @@ produção de conteúdo, inovando e criando novas possibilidades</p>
 
 			<div class="row text-center" id="myContactContent">
 				<div class="text-center col-xs-12 col-sm-12 col-m-12 col-lg-12">
-					<p style="color: #c1a748; font-size: 2.5vw; padding-bottom: 2vw; padding-top: 3.5vw"><b>N O S S O S&nbsp;&nbsp; C O N T A T O S</b></p>
+					<p style="color: #ffbd4a; font-size: 2.5vw; padding-bottom: 2vw; padding-top: 3.5vw"><b>N O S S O S&nbsp;&nbsp; C O N T A T O S</b></p>
 				</div>
 			</div>
 
@@ -90,4 +103,14 @@ produção de conteúdo, inovando e criando novas possibilidades</p>
 				</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+			$("a.toScroll").on('click',function(e) {
+			    var url = e.target.href;
+			    var hash = url.substring(url.indexOf("#")+1);
+			    $('html, body').animate({
+			        scrollTop: $('#'+hash).offset().top - 50
+			    }, 600);
+			    return false;
+			});
+	</script>
 </body>
